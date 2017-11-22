@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/family/index",
+    "pages/tour/index",
+    "pages/study/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "陈斌",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#80e006",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "assets/images/service.png",
+        "selectedIconPath": "assets/images/serviceSelected.png"
+      },
+      {
+        "pagePath": "pages/family/index",
+        "text": "工作经历",
+        "iconPath": "assets/images/demo.png",
+        "selectedIconPath": "assets/images/demoSelected.png"
+      },
+      {
+        "pagePath": "pages/tour/index",
+        "text": "随笔",
+        "iconPath": "assets/images/record.png",
+        "selectedIconPath": "assets/images/recordSelected.png"
+      },
+      {
+        "pagePath": "pages/study/index",
+        "text": "业余生活",
+        "iconPath": "assets/images/study.png",
+        "selectedIconPath": "assets/images/studySelected.png"
+      }
+    ]
+  }
+}

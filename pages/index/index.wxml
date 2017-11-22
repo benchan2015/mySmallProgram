@@ -1,0 +1,27 @@
+<view class="container">
+  <view class='baseInfo'>
+    <image src="{{baseInfo.header}}" class="baseInfoHeader" mode="widthFix" />
+    <view class="baseInfoDetail">
+        <view wx:for="{{baseInfo.concact}}">
+          <text class="text">{{item.text}}: {{item.value}}</text>
+        </view>
+    </view>
+  </view>
+
+  <view class="boyhood">
+    <text class="title">我在农村的日子</text>
+    <view></view>
+  </view>
+  <view class="boyhood">
+    <text class="title">我的中学时代</text>
+    <view></view>
+  </view>
+  <view class="boyhood">
+    <text class="title">走进大学校园</text>
+    <view></view>
+  </view>
+  <view class="boyhood">
+    <text class="title">毕业-开启新章程</text>
+    <view></view>
+  </view>
+</view>
